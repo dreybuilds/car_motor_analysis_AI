@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "rand"
+version = "0.1.0"
+description = ""
+authors = ["dreybuilds <nzaunzilani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy  = "1.21.1"
+psycopg2 = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
